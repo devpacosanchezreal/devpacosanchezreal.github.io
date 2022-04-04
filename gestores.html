@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="css/shared.css">
+    <link rel="stylesheet" href="css/gestores.css">
+    <!----LINK FONT---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- LINK ICONOS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="main-header">
+        <div>
+            <a class="main-header___brand" href="index.html">Banca</a> 
+        </div>
+        
+            <nav class="main-nav">
+                <ul class="main-nav__item">
+                    <li class="main-nav__item"><a href="clientes.html">Clientes</a></li>
+                    <li class="main-nav__item"><a href="gestores.html">Gestores</a></li>
+                    <li class="main-nav__item"><a class="main-nav__item_mensajes" href="mensajes.html">Mensajes</a></li>
+                    <li class="main-nav__item main-nav__item_logout"><a href="logout.html"><i class="fas fa-sign-out-alt"></i>
+                            Logout
+                        </a>
+                </ul>
+            </nav>
+
+    </header>
+    <main class="dashboard-main">
+        <article class=" dashboard-article">
+            <h3>Nuevos gestores</h3>
+            <table class="blueTable dashboard-article__table">
+                <thead>
+                <tr>
+                <th>head1</th>
+                <th>head2</th>
+                <th>head3</th>
+            
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <td>cell1_1</td>
+                <td>cell2_1</td>
+                <td>cell3_1</td>
+            
+                </tr>
+                <tr>
+                <td>cell1_2</td>
+                <td>cell2_2</td>
+                <td>cell3_2</td>
+           
+                </tr>
+                <tr>
+                <td>cell1_3</td>
+                <td>cell2_3</td>
+                <td>cell3_3</td>
+          
+                </tr>
+                <tr>
+                <td>cell1_4</td>
+                <td>cell2_4</td>
+                <td>cell3_4</td>
+              
+                </tr>
+                </tbody>
+                </table>
+        </article>
+        
+        <article class=" dashboard-article">
+            <h3>Gestor</h3>
+
+            <form class="main-formulario">
+                <label class="main-formulario___item" for="usuario">Usuario</label>
+                <input class="main-formulario___item" type="text" name="usuario" id="usuario">
+
+                <label class="main-formulario___item" for="password">Contraseña</label>
+                <input class="main-formulario___item" type="password" name="password" id="password">
+
+                <div class="main-formulario___item">
+                <input class="main-formulario___submit"  type="submit" value="enviar">
+                </div>
+
+            </form>
+        </article>
+
+    </main>
+
+    <footer class="main-footer">
+        <nav class="main-footer__enlaces">
+            <ul>
+                <li class="main-footer__enlace" ><a href="">Soporte</a></li>
+                <li class="main-footer__enlace"><a href="">Términos de uso</a></li>
+                <li class="main-footer__enlace"><a href="">FAQ</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+
+</body>
+</html>
